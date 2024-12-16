@@ -1,0 +1,35 @@
+.cardList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.card{margin: 10px;}
+
+.card-button{width: 100%; display: flex; justify-content: center;}
+
+.card-body button {
+    width: 90%;
+    border-radius: 4px;
+    background-color: $color-primary;
+    border-color: $color-primary;
+    &:hover{
+        background-color:$color-menu_bk;
+        color: $color-primary;
+        border-color: $color-primary;
+    }
+}
+
+
+.pagination{
+    padding: 2rem 0px;
+    width: 100%;
+    --bs-pagination-active-bg:$color-primary;
+    --bs-pagination-active-border-color:$color-primary;
+}
+
+.page-link{color: $color-primary; border-color: $color-primary;}
+.page-item.active{background-color: $color-primary; border-radius: 0.375rem; border-color: $color-primary;}
+

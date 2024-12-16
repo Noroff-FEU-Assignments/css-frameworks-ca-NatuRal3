@@ -1,0 +1,15 @@
+footer{
+    height: 4rem;
+    display: flex;
+    background-color: $color-footer_bk;
+    color:$color-media ;
+    justify-content: space-between;
+    padding: 0rem 5rem;
+    align-items: center;
+}
+
+.footer-media {
+    display: flex;
+    width: 5rem;
+    justify-content: space-evenly;
+  }
